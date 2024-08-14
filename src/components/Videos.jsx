@@ -1,9 +1,10 @@
 import React from 'react'
 import { Stack,Box } from '@mui/material';
-const Videos = (videos) => {
+import {VideoCard,ChannelCard} from './';
+const Videos = ({videos}) => {
   return (
     <Stack direction='row'
-          flexWrap='warp'
+          flexWrap='wrap'
           justifyContent='start'
           gap={2}>
       {videos.map((item,idx)=>(
