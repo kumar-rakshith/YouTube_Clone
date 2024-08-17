@@ -22,11 +22,11 @@ This repository contains a modern YouTube clone application built using React JS
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/modern-youtube-clone.git
+   git clone https://github.com/kumar-rakshith/youtube_clone.git
    ```
 2. **Navigate into the project directory:**
    ```bash
-   cd modern-youtube-clone
+   cd youtube_clone
    ```
 3. **Install dependencies:**
    ```bash
