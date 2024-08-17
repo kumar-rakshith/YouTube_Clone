@@ -6,7 +6,7 @@ import { fetchFromAPI } from "../utils/fetchFromApi";
 import { Videos } from "./";
 
 const SearchFeed = () => {
-  const [videos, setVideos] = useState([]);
+  const [videos, setVideos] = useState(null);
   const { searchTerm } = useParams();
 
   useEffect(() => {
